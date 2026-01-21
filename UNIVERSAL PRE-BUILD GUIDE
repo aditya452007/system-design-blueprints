@@ -1,0 +1,413 @@
+```Markdown
+
+.
+
+🧭 UNIVERSAL PRE-BUILD GUIDE (2026)
+
+Create with AI · Create for Humans · Engineer with Taste
+
+FILE 1 — MANIFEST_AND_GOALS.md
+
+Role: Product truth, human contract, AI north star
+Written by: Human (you), refined by AI
+Created FIRST
+
+This file answers:
+
+What is this product really?
+
+Who is it helping?
+
+Why must it exist?
+
+Must contain (bullet-only, no paragraphs):
+
+Product one-liner
+
+One sentence: problem → transformation
+
+Primary persona(s)
+
+Emotional state (before)
+
+Situation/context (where, when, device)
+
+Emotional state (after)
+
+Core human problem
+
+Psychological pain
+
+Environmental trigger
+
+Non-negotiable product goal
+
+ONE goal only
+
+Out-of-scope list
+
+What this product will NOT try to solve
+
+Ethics & trust rules
+
+What data is never collected
+
+What patterns are forbidden (dark UX, addiction hooks)
+
+Offline & failure philosophy
+
+What happens if internet is gone
+
+What user sees if something fails
+
+Success definition
+
+How a human feels after use
+
+1–2 measurable signals (time spent, task completion)
+
+AI Instruction Block
+
+“When generating anything, align strictly with this intent”
+
+Acceptance checklist
+
+Yes/No questions verifying alignment with intent
+
+FILE 2 — BEHAVIOR_AND_FLOW.md
+
+Role: UX + logic + time + cognition
+Written by: Human + AI
+Created SECOND
+
+This file answers:
+
+How does the user move through the product?
+
+What happens over time?
+
+What if the user does nothing?
+
+Must contain (bullet-only, very precise):
+
+User states
+
+Emotional + cognitive (anxious, tired, distracted)
+
+System states
+
+Idle, onboarding, active, paused, completed
+
+Primary flow
+
+Entry → first interaction → core loop → exit
+
+Micro-scenarios
+
+User opens and closes immediately
+
+User leaves tab idle
+
+User returns after interruption
+
+Timing rules (explicit numbers)
+
+Animation durations (ms)
+
+Interaction delays
+
+Core logic timings (e.g., breathing phases)
+
+Cognitive load rules
+
+What user should never think about
+
+Max choices per screen
+
+Accessibility behavior
+
+Reduced motion rules
+
+Screen reader cues
+
+Error & edge handling
+
+Slow device
+
+No network
+
+Unsupported browser
+
+Analytics hooks (if any)
+
+Event names
+
+When they fire
+
+AI Instruction Block
+
+“Simulate user sessions using this behavior”
+
+Acceptance checklist
+
+State restoration
+
+Timing correctness
+
+Accessibility toggles
+
+FILE 3 — DESIGN_TOKENS_AND_UI_RULES.md
+
+Role: Visual system, aesthetic discipline
+Written by: Designer mindset + AI
+Created THIRD
+
+This file answers:
+
+How should it look and feel?
+
+What is allowed visually?
+
+What is forbidden?
+
+Must contain (bullets + required code blocks):
+
+Design philosophy
+
+Emotional tone (calm, energetic, playful, serious)
+
+Color system
+
+Purpose-based colors (not just hex)
+
+Light/dark behavior
+
+Typography system
+
+Font family
+
+Scale (H1 → body → small text)
+
+Line height rules
+
+Spacing system
+
+Base unit (e.g., 8px)
+
+Padding/margin rules
+
+Motion system
+
+Tempo (fast/slow)
+
+Easing rules
+
+When motion is disabled
+
+Component visual rules
+
+Buttons
+
+Cards
+
+Navigation
+
+Accessibility constraints
+
+Minimum contrast
+
+Touch target sizes
+
+Prohibited visuals
+
+Effects that must never appear
+
+Token definition block (REQUIRED)
+
+JSON or CSS variables (copy-pasteable)
+
+AI Instruction Block
+
+“Use ONLY these tokens and rules”
+
+Acceptance checklist
+
+Contrast check
+
+Token usage audit
+
+FILE 4 — COMPONENT_AND_LAYOUT_GUIDE.md
+
+Role: HTML structure + React/TS logic + UI anatomy
+Written by: Engineer + AI
+Created FOURTH
+
+This file answers:
+
+What exactly do we build on screen?
+
+How is it structured in HTML and components?
+
+Must contain (bullets + snippets):
+
+Global layout
+
+Header / Nav
+
+Main content zones
+
+Footer
+
+Component list
+
+Each component name + purpose
+
+For EACH component
+
+Semantic HTML structure
+
+Accessibility attributes (ARIA)
+
+Props/interface (TypeScript)
+
+State ownership (local/global)
+
+Token hooks (class or data-attr)
+
+CSS structure
+
+Naming convention
+
+File separation
+
+Animation hooks
+
+CSS keyframes
+
+JS sync rules
+
+Example snippets
+
+Minimal HTML
+
+Minimal React + TS
+
+Testing anchors
+
+What must be testable
+
+AI Instruction Block
+
+“Generate components strictly from this file”
+
+Acceptance checklist
+
+Semantic correctness
+
+JS-off fallback
+
+Component isolation
+
+FILE 5 — ENGINEERING_AND_DEPLOYMENT.md
+
+Role: Performance, backend, reliability, scale
+Written by: Engineer mindset
+Created LAST
+
+This file answers:
+
+How does it run everywhere?
+
+How is it fast, safe, scalable?
+
+Must contain (bullet-only + schemas):
+
+Tech stack
+
+Frontend
+
+Backend (if any)
+
+State/storage
+
+Project structure
+
+Folder tree
+
+Data handling
+
+Local vs server
+
+Persistence rules
+
+Offline strategy
+
+Service Worker rules
+
+Cache strategy
+
+API contracts (if any)
+
+Endpoints
+
+Request/response shape
+
+Performance budgets
+
+Initial load size
+
+Time to interactive
+
+Security rules
+
+Input handling
+
+Privacy defaults
+
+CI / QA rules
+
+Linting
+
+Testing
+
+Lighthouse thresholds
+
+Deployment strategy
+
+Hosting
+
+Rollback plan
+
+AI Instruction Block
+
+“Generate infra, mocks, configs from this”
+
+Acceptance checklist
+
+Offline resume
+
+Performance pass
+
+Build reproducibility
+
+🔁 HOW TO USE THIS EVERY TIME
+
+Create empty repo
+
+Create these 5 files only
+
+Fill them top to bottom
+
+Feed them to AI in order
+
+Generate code
+
+Validate against acceptance checklists
+
+If something feels wrong:
+
+❌ Do NOT tweak code first
+
+✅ Fix the file that failed its checklist
+
+```
