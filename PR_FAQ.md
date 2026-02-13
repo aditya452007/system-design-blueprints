@@ -60,3 +60,94 @@ If you need too many features to justify value, you are overbuilding.
 ☐ Would someone actually say this?
 
 If the quote feels artificial, your understanding of the user is shallow.
+
+
+
+---
+
+
+``` Markdown
+Headline
+
+[Your Project Name] enables [target user] to achieve [clear benefit].
+
+Subtitle
+
+A clearer framing of the transformation, including context or secondary benefit.
+
+Intro (3–4 sentences)
+
+Who it’s for
+
+What is launching
+
+What core benefit it delivers
+
+Why it matters
+
+Problem (Ranked)
+
+Most painful problem + consequence
+
+Second problem + consequence
+
+Third (optional)
+
+No mention of solution here.
+
+Solution Overview
+
+One-paragraph explanation of how it works
+
+Explicit mapping:
+
+Problem 1 → How it solves it
+
+Problem 2 → How it solves it
+
+Problem 3 → How it solves it
+
+Leader Quote
+
+Why we chose this problem + belief in the solution.
+
+How It Works (Operational Steps)
+
+User does X
+
+System does Y
+
+User sees Z
+
+Outcome achieved
+
+Customer Quote
+
+Name + persona + pain + outcome improvement.
+
+Get Started
+
+One sentence + link.
+
+🔍 FAQ Thinking Prompts
+Customer FAQs
+
+Why should I trust this?
+
+How is this different from existing tools?
+
+What does it cost?
+
+How long until I see value?
+
+Internal FAQs
+
+What metric defines success?
+
+What is version 2?
+
+What are the biggest risks?
+
+Why will this win?
+
+```
