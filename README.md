@@ -8,3 +8,14 @@
 - BACKEND_STRUCTURE.md - Database schema. Every table. Every API endpoint.
 - IMPLEMENTATION_PLAN.md - Step 1.1, 1.2, 2.1. Actual build sequence.
 ```
+
+
+```Markdown
+
+git clone https://github.com/sickn33/antigravity-awesome-skills.git
+
+cp -r antigravity-awesome-skills/skills/{ui-ux-pro-max,typescript-expert} .agent/skills/
+
+rm -rf antigravity-awesome-skills
+
+```
